@@ -97,9 +97,9 @@ To learn more about React Native, take a look at the following resources:
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
 
-Folder Structure
+# Folder Structure
 
-└── OnboardingScreens
+ └── OnboardingScreens
     ├── .bundle
         └── config
     ├── .eslintrc.js
