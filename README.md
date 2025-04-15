@@ -99,97 +99,97 @@ To learn more about React Native, take a look at the following resources:
 
 # Folder Structure
 
- └── OnboardingScreens
-    ├── .bundle
-        └── config
-    ├── .eslintrc.js
-    ├── .gitignore
-    ├── .prettierrc.js
-    ├── .watchmanconfig
-    ├── App.jsx
-    ├── Gemfile
-    ├── __tests__
-        └── App.test.tsx
-    ├── android
-        ├── app
-        │   ├── build.gradle
-        │   ├── debug.keystore
-        │   ├── proguard-rules.pro
-        │   └── src
-        │   │   ├── debug
-        │   │       └── AndroidManifest.xml
-        │   │   └── main
-        │   │       ├── AndroidManifest.xml
-        │   │       ├── java
-        │   │           └── com
-        │   │           │   └── signpostphonebook
-        │   │           │       ├── MainActivity.kt
-        │   │           │       └── MainApplication.kt
-        │   │       └── res
-        │   │           ├── drawable
-        │   │               └── rn_edit_text_material.xml
-        │   │           ├── mipmap-hdpi
-        │   │               ├── ic_launcher.png
-        │   │               └── ic_launcher_round.png
-        │   │           ├── mipmap-mdpi
-        │   │               ├── ic_launcher.png
-        │   │               └── ic_launcher_round.png
-        │   │           ├── mipmap-xhdpi
-        │   │               ├── ic_launcher.png
-        │   │               └── ic_launcher_round.png
-        │   │           ├── mipmap-xxhdpi
-        │   │               ├── ic_launcher.png
-        │   │               └── ic_launcher_round.png
-        │   │           ├── mipmap-xxxhdpi
-        │   │               ├── ic_launcher.png
-        │   │               └── ic_launcher_round.png
-        │   │           └── values
-        │   │               ├── strings.xml
-        │   │               └── styles.xml
-        ├── build.gradle
-        ├── gradle.properties
-        ├── gradle
-        │   └── wrapper
-        │   │   ├── gradle-wrapper.jar
-        │   │   └── gradle-wrapper.properties
-        ├── gradlew
-        ├── gradlew.bat
-        └── settings.gradle
-    ├── app.json
-    ├── babel.config.js
-    ├── index.js
-    ├── ios
-        ├── .xcode.env
-        ├── Podfile
-        ├── SignpostPhoneBook.xcodeproj
-        │   ├── project.pbxproj
-        │   └── xcshareddata
-        │   │   └── xcschemes
-        │   │       └── SignpostPhoneBook.xcscheme
-        └── SignpostPhoneBook
-        │   ├── AppDelegate.swift
-        │   ├── Images.xcassets
-        │       ├── AppIcon.appiconset
-        │       │   └── Contents.json
-        │       └── Contents.json
-        │   ├── Info.plist
-        │   ├── LaunchScreen.storyboard
-        │   └── PrivacyInfo.xcprivacy
-    ├── jest.config.js
-    ├── metro.config.js
-    ├── package-lock.json
-    ├── package.json
-    ├── src
-        ├── Components
-        │   ├── Home.jsx
-        │   └── OnboardingScreen.jsx
-        └── assets
-        │   ├── animations
-        │       ├── Animation - 1741766420544.json
-        │       ├── Animation - 1741767350475.json
-        │       └── Animation - 1741773493053.json
-        │   └── images
-        │       ├── img1.png
-        │       ├── img2.png
-        │       └── img3.png
-    └── tsconfig.json
+ └── OnboardingScreens <br>
+    ├── .bundle <br>
+        └── config <br>
+    ├── .eslintrc.js <br>
+    ├── .gitignore <br>
+    ├── .prettierrc.js <br>
+    ├── .watchmanconfig <br>
+    ├── App.jsx <br>
+    ├── Gemfile <br>
+    ├── __tests__ <br>
+        └── App.test.tsx <br>
+    ├── android <br>
+        ├── app <br>
+        │   ├── build.gradle <br>
+        │   ├── debug.keystore <br>
+        │   ├── proguard-rules.pro <br>
+        │   └── src <br>
+        │   │   ├── debug <br>
+        │   │       └── AndroidManifest.xml <br>
+        │   │   └── main <br>
+        │   │       ├── AndroidManifest.xml  <br>
+        │   │       ├── java <br>
+        │   │           └── com <br>
+        │   │           │   └── signpostphonebook <br>
+        │   │           │       ├── MainActivity.kt <br>
+        │   │           │       └── MainApplication.kt <br>
+        │   │       └── res <br>
+        │   │           ├── drawable <br>
+        │   │               └── rn_edit_text_material.xml <br>
+        │   │           ├── mipmap-hdpi <br>
+        │   │               ├── ic_launcher.png <br>
+        │   │               └── ic_launcher_round.png <br>
+        │   │           ├── mipmap-mdpi <br>
+        │   │               ├── ic_launcher.png <br>
+        │   │               └── ic_launcher_round.png <br>
+        │   │           ├── mipmap-xhdpi <br>
+        │   │               ├── ic_launcher.png <br>
+        │   │               └── ic_launcher_round.png <br>
+        │   │           ├── mipmap-xxhdpi <br>
+        │   │               ├── ic_launcher.png <br>
+        │   │               └── ic_launcher_round.png <br>
+        │   │           ├── mipmap-xxxhdpi <br>
+        │   │               ├── ic_launcher.png <br>
+        │   │               └── ic_launcher_round.png <br>
+        │   │           └── values <br>
+        │   │               ├── strings.xml <br>
+        │   │               └── styles.xml <br>
+        ├── build.gradle <br>
+        ├── gradle.properties <br>
+        ├── gradle <br>
+        │   └── wrapper <br>
+        │   │   ├── gradle-wrapper.jar <br>
+        │   │   └── gradle-wrapper.properties <br>
+        ├── gradlew <br>
+        ├── gradlew.bat <br>
+        └── settings.gradle <br>
+    ├── app.json <br>
+    ├── babel.config.js <br>
+    ├── index.js <br>
+    ├── ios <br>
+        ├── .xcode.env <br>
+        ├── Podfile <br>
+        ├── SignpostPhoneBook.xcodeproj <br>
+        │   ├── project.pbxproj <br>
+        │   └── xcshareddata <br>
+        │   │   └── xcschemes <br>
+        │   │       └── SignpostPhoneBook.xcscheme <br>
+        └── SignpostPhoneBook <br>
+        │   ├── AppDelegate.swift <br>
+        │   ├── Images.xcassets <br>
+        │       ├── AppIcon.appiconset <br>
+        │       │   └── Contents.json <br>
+        │       └── Contents.json <br>
+        │   ├── Info.plist <br>
+        │   ├── LaunchScreen.storyboard <br>
+        │   └── PrivacyInfo.xcprivacy <br>
+    ├── jest.config.js <br>
+    ├── metro.config.js <br>
+    ├── package-lock.json <br>
+    ├── package.json <br>
+    ├── src <br>
+        ├── Components <br>
+        │   ├── Home.jsx <br>
+        │   └── OnboardingScreen.jsx <br>
+        └── assets <br>
+        │   ├── animations <br>
+        │       ├── Animation - 1741766420544.json <br>
+        │       ├── Animation - 1741767350475.json <br>
+        │       └── Animation - 1741773493053.json <br>
+        │   └── images <br>
+        │       ├── img1.png <br>
+        │       ├── img2.png <br>
+        │       └── img3.png <br>
+    └── tsconfig.json <br>
